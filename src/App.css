@@ -1,38 +1,133 @@
 .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h5 {
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+label,
+strong,
+h5 {
+  font-weight: 700;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+p {
+  margin: 5px;
+}
+
+/* User length and width styling */
+.inputs-container {
+  max-width: 350px;
+}
+
+.user-inputs {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.measurement-inputs {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
+  margin-right: 10px;
+}
+
+.area>span {
+  margin-left: 12px;
+}
+
+.measurement {
+  width: 50px;
+  margin: 0 5px 0 5px;
+}
+
+/* Vegetable selector input styling */
+.vegetable-selector {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.selector-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.selector-input>select {
+  height: 20px;
+  margin: auto 5px;
+}
+
+/* Garden box area styling */
+.garden-bed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.bed-width-container {
+  display: flex;
+  align-items: center;
+}
+
+.bed-width {
+  margin-left: 3px;
+
+}
+
+.beds-container {
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  padding: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bed {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.plant {
+  border-radius: 2px;
+  border: 1px solid green;
+  margin: 1px;
+}
+
+/* Extra information section styling */
+.extra-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  text-align: start;
+}
+
+.vegetable-info {
+  width: 50%;
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  border: 5px solid black;
 }
