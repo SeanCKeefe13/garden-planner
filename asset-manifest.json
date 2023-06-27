@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d97eed2.css",
-    "main.js": "/static/js/main.c7e5bf34.js",
-    "static/js/787.e40581ce.chunk.js": "/static/js/787.e40581ce.chunk.js",
-    "index.html": "/index.html",
-    "main.9d97eed2.css.map": "/static/css/main.9d97eed2.css.map",
-    "main.c7e5bf34.js.map": "/static/js/main.c7e5bf34.js.map",
-    "787.e40581ce.chunk.js.map": "/static/js/787.e40581ce.chunk.js.map"
+    "main.css": "/garden-planner/static/css/main.9d97eed2.css",
+    "main.js": "/garden-planner/static/js/main.7e947cba.js",
+    "static/js/787.e40581ce.chunk.js": "/garden-planner/static/js/787.e40581ce.chunk.js",
+    "index.html": "/garden-planner/index.html",
+    "main.9d97eed2.css.map": "/garden-planner/static/css/main.9d97eed2.css.map",
+    "main.7e947cba.js.map": "/garden-planner/static/js/main.7e947cba.js.map",
+    "787.e40581ce.chunk.js.map": "/garden-planner/static/js/787.e40581ce.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d97eed2.css",
-    "static/js/main.c7e5bf34.js"
+    "static/js/main.7e947cba.js"
   ]
 }
